@@ -1,0 +1,10 @@
+t=28
+arr=[]  
+for i in range(t):
+    arr.append(int(input()))
+
+for i in range(t):
+    if arr[i]==0:
+        arr.pop()
+    else:
+        arr.append(arr[i])
